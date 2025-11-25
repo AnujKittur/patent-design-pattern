@@ -1,0 +1,23 @@
+{
+  "title": "Quick Access Guide: Construction Machinery Patents",
+  "direct_links": {
+    "google_patents_general": "https://patents.google.com/?q=construction+machinery",
+    "google_patents_excavators": "https://patents.google.com/?q=excavator+OR+bulldozer+OR+loader",
+    "google_patents_cranes": "https://patents.google.com/?q=construction+crane",
+    "google_patents_robotics": "https://patents.google.com/?q=construction+robot",
+    "uspto_advanced_search": "https://patft.uspto.gov/netahtml/PTO/search-adv.htm",
+    "epo_espacenet": "https://worldwide.espacenet.com/",
+    "wipo_patentscope": "https://patentscope.wipo.int/search/en/search.jsf"
+  },
+  "classification_codes": {
+    "E02F": "https://patents.google.com/?q=CPC/E02F",
+    "B66C": "https://patents.google.com/?q=CPC/B66C",
+    "E04G": "https://patents.google.com/?q=CPC/E04G"
+  },
+  "instructions": {
+    "step1": "Click on any Google Patents link to see search results",
+    "step2": "Use USPTO Advanced Search for more precise queries",
+    "step3": "Download patent PDFs directly from search results",
+    "step4": "Export search results as CSV when available"
+  }
+}

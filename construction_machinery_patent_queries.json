@@ -1,0 +1,91 @@
+{
+  "title": "Construction Machinery Patent Search Guide",
+  "created": "2025-11-06T13:17:39.706779",
+  "databases": {
+    "USPTO": {
+      "url": "https://patft.uspto.gov/",
+      "advanced_search": "https://patft.uspto.gov/netahtml/PTO/search-adv.htm",
+      "search_queries": [
+        {
+          "name": "General Construction Machinery",
+          "query": "TTL/(construction AND (machinery OR equipment OR machine))",
+          "description": "Patents with construction machinery/equipment in title"
+        },
+        {
+          "name": "Excavators and Earthmoving",
+          "query": "TTL/(excavator OR bulldozer OR loader OR backhoe OR \"earth moving\")",
+          "description": "Earthmoving and excavation equipment"
+        },
+        {
+          "name": "Cranes and Lifting",
+          "query": "TTL/(crane OR \"lifting equipment\" OR hoist) AND TTL/construction",
+          "description": "Construction cranes and lifting equipment"
+        },
+        {
+          "name": "Road Construction Equipment",
+          "query": "TTL/(paver OR compactor OR \"road construction\" OR \"asphalt\")",
+          "description": "Road construction and paving equipment"
+        },
+        {
+          "name": "Concrete Equipment",
+          "query": "TTL/((\"concrete mixer\" OR \"concrete pump\" OR \"concrete truck\") AND construction)",
+          "description": "Concrete mixing and handling equipment"
+        },
+        {
+          "name": "Construction Robotics",
+          "query": "TTL/(robot AND construction) OR TTL/(\"construction robot\" OR \"automated construction\")",
+          "description": "Robotic construction machinery"
+        },
+        {
+          "name": "Excavating Equipment (E02F)",
+          "query": "ICL/E02F",
+          "description": "Patents classified under E02F (Dredging; Excavating)"
+        },
+        {
+          "name": "Cranes (B66C)",
+          "query": "ICL/B66C AND TTL/construction",
+          "description": "Crane patents related to construction"
+        }
+      ],
+      "classification_codes": {
+        "E02F": "Dredging; Excavating; Soil-shifting",
+        "E02D": "Foundations; Excavations; Embankments",
+        "E04G": "Scaffolding; Forms; Shuttering",
+        "E04B": "General Building Constructions",
+        "B66C": "Cranes; Load-Engaging Elements",
+        "B25J": "Manipulators; Robots",
+        "E01C": "Construction of Roads, Railways, or Airports",
+        "E21B": "Earth Drilling",
+        "E21C": "Mining or Quarrying"
+      }
+    },
+    "Google_Patents": {
+      "url": "https://patents.google.com/",
+      "search_terms": [
+        "construction machinery",
+        "construction equipment",
+        "excavator",
+        "bulldozer",
+        "crane",
+        "loader",
+        "backhoe",
+        "compactor",
+        "paver",
+        "concrete mixer",
+        "construction robot",
+        "earthmoving equipment",
+        "road construction machinery",
+        "building construction equipment"
+      ],
+      "example_query": "construction machinery OR construction equipment"
+    },
+    "EPO_Espacenet": {
+      "url": "https://worldwide.espacenet.com/",
+      "classification_codes": {
+        "E02F": "Dredging; Excavating",
+        "E02D": "Foundations",
+        "B66C": "Cranes"
+      }
+    }
+  }
+}

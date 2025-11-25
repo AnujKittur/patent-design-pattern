@@ -1,0 +1,80 @@
+{
+  "generated_date": "2025-11-06T13:17:00.437369",
+  "search_queries": {
+    "uspto_queries": [
+      "CPC/E04G AND TTL/construction",
+      "CPC/E04B AND TTL/machinery",
+      "CPC/B66C AND TTL/construction",
+      "TTL/construction AND TTL/machinery",
+      "TTL/construction AND TTL/equipment",
+      "TTL/excavator OR TTL/bulldozer OR TTL/crane",
+      "TTL/construction AND TTL/robot",
+      "CPC/E04G AND ABST/automated",
+      "CPC/B25J AND ABST/construction"
+    ],
+    "epo_queries": [
+      "CPC=E04G",
+      "CPC=E04B",
+      "CPC=B66C",
+      "TI=\"construction machinery\"",
+      "TI=\"construction equipment\"",
+      "AB=\"construction robot\""
+    ],
+    "google_patents_queries": [
+      "CPC/E04G construction",
+      "CPC/E04B machinery",
+      "CPC/B66C construction",
+      "\"construction machinery\"",
+      "\"construction equipment\"",
+      "\"construction robot\"",
+      "excavator OR bulldozer OR crane"
+    ],
+    "cpc_codes": [
+      "E04G - Scaffolding; Forms; Shuttering",
+      "E04B - General Building Constructions",
+      "E04C - Building Elements",
+      "E04D - Roof Coverings",
+      "E04F - Finishing Work on Buildings",
+      "E04H - Buildings or Like Structures",
+      "B66C - Cranes; Load-Engaging Elements",
+      "B66F - Hoisting, Lifting, Hauling or Pushing",
+      "E02D - Foundations; Excavations",
+      "E02F - Earth Drilling; Mining",
+      "B25J - Manipulators (Construction Robotics)"
+    ]
+  },
+  "uspto_bulk_download": "\n    USPTO BULK DATA DOWNLOAD GUIDE\n    ===============================\n    \n    1. Visit: https://bulkdata.uspto.gov/\n    \n    2. Navigate to Patent Grant Data:\n       https://bulkdata.uspto.gov/data/patent/grant/redbook/bibliographic/\n    \n    3. Download XML files (organized by year/quarter)\n    \n    4. Filter for Construction Machinery CPC Codes:\n       - E04G (Scaffolding)\n       - E04B (Building Constructions)\n       - E04C (Building Elements)\n       - B66C (Cranes)\n       - B66F (Hoisting)\n       - E02D (Foundations)\n       - E02F (Earth Drilling)\n       - B25J (Robotics)\n    \n    5. Parse XML files to extract patents with these CPC codes\n    \n    Example XML Structure:\n    <us-patent-grant>\n      <us-bibliographic-data-grant>\n        <classification-ipc>\n          <main-classification>E04G 21/00</main-classification>\n        </classification-ipc>\n      </us-bibliographic-data-grant>\n    </us-patent-grant>\n    ",
+  "sample_template": {
+    "patent_number": "",
+    "title": "",
+    "publication_date": "",
+    "application_date": "",
+    "abstract": "",
+    "description": "",
+    "claims": "",
+    "cpc_classification": [],
+    "ipc_classification": [],
+    "inventors": [],
+    "assignees": [],
+    "cited_patents": [],
+    "cited_by_patents": [],
+    "patent_family": []
+  },
+  "direct_links": {
+    "uspto_search": "https://ppubs.uspto.gov/pubwebapp/",
+    "uspto_advanced": "https://ppubs.uspto.gov/pubwebapp/static/pages/landing.html#search",
+    "uspto_bulk_data": "https://bulkdata.uspto.gov/",
+    "epo_espacenet": "https://worldwide.espacenet.com/",
+    "epo_advanced": "https://worldwide.espacenet.com/advancedSearch?locale=en_EP",
+    "wipo_patentscope": "https://patentscope.wipo.int/search/en/search.jsf",
+    "google_patents": "https://patents.google.com/",
+    "google_patents_advanced": "https://patents.google.com/advanced"
+  },
+  "recommended_approach": [
+    "1. Start with USPTO Bulk Data for comprehensive dataset",
+    "2. Use EPO Espacenet for European patents",
+    "3. Use Google Patents for citation analysis",
+    "4. Filter by CPC codes: E04G, E04B, B66C, E02F, B25J",
+    "5. Search keywords: construction machinery, construction equipment, construction robot"
+  ]
+}
